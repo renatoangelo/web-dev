@@ -1,0 +1,11 @@
+h1 {
+  color: brown;
+}
+
+.imagemFundo {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/01-bgimage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
