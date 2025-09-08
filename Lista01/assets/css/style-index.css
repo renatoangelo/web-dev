@@ -1,0 +1,97 @@
+:root {
+    --cor-fundo: #121212;
+    --cor-cartao: #1e1e1e;
+    --cor-borda: #2d2d2d;
+    --cor-texto-principal: #e0e0e0;
+    --cor-texto-secundario: #a0a0a0;
+    --cor-destaque: #00aaff;
+    --sombra-cartao: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-principal);
+    line-height: 1.6;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cabecalho h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.cabecalho p {
+    font-size: 1.2em;
+    color: var(--cor-texto-secundario);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 0 25px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.cartao {
+    background-color: var(--cor-cartao);
+    border: 1px solid var(--cor-borda);
+    border-radius: 10px;
+    padding: 25px;
+    text-decoration: none;
+    color: var(--cor-texto-principal);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.cartao:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--sombra-cartao);
+    border-color: var(--cor-destaque);
+}
+
+.numero {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--cor-destaque);
+}
+
+.cartao h2 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.cartao .conceitos {
+    font-size: 0.9em;
+    color: var(--cor-texto-secundario);
+}
+
+.rodape {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.9em;
+    color: var(--cor-texto-secundario);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

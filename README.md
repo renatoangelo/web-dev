@@ -42,9 +42,11 @@ O projeto segue uma estrutura de organização padronizada para facilitar a nave
 
 Abaixo está a lista completa dos exercícios contidos neste repositório.
 
+Você pode acessar o índice, clicando aqui [Visualizar](./Lista01/index.html)
+
 | #  | Exercício                 | Tags HTML Principais    | Propriedades CSS Principais | Link                                    |
 |:---|:--------------------------|:------------------------|:----------------------------|:----------------------------------------|
-| 01 | Introdução ao HTML/CSS    | `<h1>`, `<p>`, `<img>`  | `color`, `font-size`        | [Visualizar](./Lista01/01Introducao.html)       |
+| 01 | Introdução ao HTML/CSS    | `<h1>`, `<p>`, `<img>`  | `color`, `font-size`        | [Visualizar](./Lista01/01intro.html)       |
 | 02 | Página de Perfil          | `<img>`                 | `border-radius`             | [Visualizar](./Lista01/02perfil.html)           |
 | 03 | Portfólio com Grid        | `<div>`                 | `grid`                      | [Visualizar](./Lista01/03grid.html)             |
 | 04 | Página de Blog            | `<ul>`, `<li>`          | `list-style`                | [Visualizar](./Lista01/04meublog.html)          |
