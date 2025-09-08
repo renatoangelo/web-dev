@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.mapa-do-site,
+.mapa-do-site ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.mapa-do-site li {
+    margin-bottom: 10px;
+}
+
+.mapa-do-site ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.mapa-do-site a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    padding: 5px;
+    text-indent: 15px;
+}
