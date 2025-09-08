@@ -44,21 +44,21 @@ Abaixo está a lista completa dos exercícios contidos neste repositório.
 
 | #  | Exercício                 | Tags HTML Principais    | Propriedades CSS Principais | Link                                    |
 |:---|:--------------------------|:------------------------|:----------------------------|:----------------------------------------|
-| 01 | Introdução ao HTML/CSS    | `<h1>`, `<p>`, `<img>`  | `color`, `font-size`        | [Visualizar](./01Introducao.html)       |
-| 02 | Página de Perfil          | `<img>`                 | `border-radius`             | [Visualizar](./02perfil.html)           |
-| 03 | Portfólio com Grid        | `<div>`                 | `grid`                      | [Visualizar](./03grid.html)             |
-| 04 | Página de Blog            | `<ul>`, `<li>`          | `list-style`                | [Visualizar](./04meublog.html)          |
-| 05 | Página de Contato         | `<form>`                | `box-shadow`                | [Visualizar](./05contato.html)          |
-| 06 | Página de FAQ             | `<details>`, `<summary>`| `transition`                | [Visualizar](./06details.html)          |
-| 07 | Página de Login           | `<input>`               | `border`                    | [Visualizar](./07login.html)            |
-| 08 | Página de Produto         | `<button>`              | `box-sizing`                | [Visualizar](./08products.html)         |
-| 09 | Lista de Tarefas          | `<input type="checkbox">`| `text-decoration`           | [Visualizar](./09tarefas.html)          |
-| 10 | Página de Testemunhos     | `<blockquote>`          | `font-style`                | [Visualizar](./10testimonials.html)     |
-| 11 | Mapa do Site (Árvore)     | `<ul>` (aninhado)       | `text-indent`               | [Visualizar](./11tree.html)             |
-| 12 | Galeria de Fotos          | `<figure>`              | `display`                   | [Visualizar](./12galeria.html)          |
-| 13 | Página de Promoções       | `<del>`                 | `color`                     | [Visualizar](./13promo.html)            |
-| 14 | Perfil de Equipe          | `<div>`                 | `flex`                      | [Visualizar](./14members.html)          |
-| 15 | Página de Lançamento      | `<time>`                | `animation`                 | [Visualizar](./15time.html)             |
+| 01 | Introdução ao HTML/CSS    | `<h1>`, `<p>`, `<img>`  | `color`, `font-size`        | [Visualizar](./Lista01/01Introducao.html)       |
+| 02 | Página de Perfil          | `<img>`                 | `border-radius`             | [Visualizar](./Lista01/02perfil.html)           |
+| 03 | Portfólio com Grid        | `<div>`                 | `grid`                      | [Visualizar](./Lista01/03grid.html)             |
+| 04 | Página de Blog            | `<ul>`, `<li>`          | `list-style`                | [Visualizar](./Lista01/04meublog.html)          |
+| 05 | Página de Contato         | `<form>`                | `box-shadow`                | [Visualizar](./Lista01/05contato.html)          |
+| 06 | Página de FAQ             | `<details>`, `<summary>`| `transition`                | [Visualizar](./Lista01/06details.html)          |
+| 07 | Página de Login           | `<input>`               | `border`                    | [Visualizar](./Lista01/07login.html)            |
+| 08 | Página de Produto         | `<button>`              | `box-sizing`                | [Visualizar](./Lista01/08products.html)         |
+| 09 | Lista de Tarefas          | `<input type="checkbox">`| `text-decoration`           | [Visualizar](./Lista01/09tarefas.html)          |
+| 10 | Página de Testemunhos     | `<blockquote>`          | `font-style`                | [Visualizar](./Lista01/10testimonials.html)     |
+| 11 | Mapa do Site (Árvore)     | `<ul>` (aninhado)       | `text-indent`               | [Visualizar](./Lista01/11tree.html)             |
+| 12 | Galeria de Fotos          | `<figure>`              | `display`                   | [Visualizar](./Lista01/12galeria.html)          |
+| 13 | Página de Promoções       | `<del>`                 | `color`                     | [Visualizar](./Lista01/13promo.html)            |
+| 14 | Perfil de Equipe          | `<div>`                 | `flex`                      | [Visualizar](./Lista01/14members.html)          |
+| 15 | Página de Lançamento      | `<time>`                | `animation`                 | [Visualizar](./Lista01/15time.html)             |
 
 ## 💻 Como Visualizar
 
