@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-promocoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cartao-promocao {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cartao-promocao img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info p {
+    color: #666;
+}
+
+.precos {
+    margin-top: 15px;
+}
+
+del {
+    color: #999;
+    margin-right: 10px;
+}
+
+.preco-atual {
+    color: #28a745;
+    font-size: 1.5em;
+    font-weight: bold;
+}

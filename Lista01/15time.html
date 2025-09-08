@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento do Produto X</title>
+    <link rel="stylesheet" href="assets/css/15-style.css">
+</head>
+<body>
+
+    <main class="container-lancamento">
+        <header>
+            <h1>O Futuro Chegou.</h1>
+            <p>Prepare-se para uma nova era de tecnologia. Lançamento oficial em breve!</p>
+        </header>
+
+        <section class="contador">
+            <div class="bloco-tempo">
+                <time id="dias">00</time>
+                <span>Dias</span>
+            </div>
+            <div class="bloco-tempo">
+                <time id="horas">00</time>
+                <span>Horas</span>
+            </div>
+            <div class="bloco-tempo">
+                <time id="minutos">00</time>
+                <span>Minutos</span>
+            </div>
+            <div class="bloco-tempo">
+                <time id="segundos">00</time>
+                <span>Segundos</span>
+            </div>
+        </section>
+
+        <section class="secao-produto">
+            <img src="assets/images/15-produto.jpg" alt="Imagem do Produto X em destaque" class="imagem-produto">
+        </section>
+
+        <section class="pre-venda">
+            <h2>Garanta o seu na pré-venda!</h2>
+            <form action="#" method="post">
+                <input type="email" placeholder="Digite seu melhor e-mail">
+                <button type="submit">Quero ser notificado!</button>
+            </form>
+        </section>
+    </main>
+
+
+<script>
+        const dataLancamento = new Date('2025-09-26T23:59:59');
+
+        const diasEl = document.getElementById('dias');
+        const horasEl = document.getElementById('horas');
+        const minutosEl = document.getElementById('minutos');
+        const segundosEl = document.getElementById('segundos');
+
+        function contagemRegressiva() {
+            const hoje = new Date();
+            const totalSegundos = (dataLancamento - hoje) / 1000;
+
+            const dias = Math.floor(totalSegundos / 3600 / 24);
+            const horas = Math.floor(totalSegundos / 3600) % 24;
+            const minutos = Math.floor(totalSegundos / 60) % 60;
+            const segundos = Math.floor(totalSegundos) % 60;
+
+            diasEl.innerHTML = String(dias).padStart(2, '0');
+            horasEl.innerHTML = String(horas).padStart(2, '0');
+            minutosEl.innerHTML = String(minutos).padStart(2, '0');
+            segundosEl.innerHTML = String(segundos).padStart(2, '0');
+        }
+
+        contagemRegressiva();
+        setInterval(contagemRegressiva, 1000);
+    </script>
+</body>
+
+
+
+</body>
+</html>

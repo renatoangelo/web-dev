@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container-equipe {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.membro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.membro img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.membro h2 {
+    margin: 15px 0 5px 0;
+    color: #333;
+}
+
+.membro h3 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+    color: #007bff;
+}
+
+.membro p {
+    margin-top: 15px;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+}

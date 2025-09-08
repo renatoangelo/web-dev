@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="assets/css/12-style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Galeria de Fotos Incríveis</h1>
+    </header>
+
+    <main class="container-galeria">
+        <a href="#img1">
+            <figure>
+                <img src="assets/images/12-thumb-1.jpg" alt="Vista de montanhas com um lago azul">
+                <figcaption>Montanhas e Lago</figcaption>
+            </figure>
+        </a>
+        <a href="#img2">
+            <figure>
+                <img src="assets/images/12-thumb-2.jpg" alt="Praia tropical com areia branca e coqueiros">
+                <figcaption>Praia Tropical</figcaption>
+            </figure>
+        </a>
+        <a href="#img3">
+            <figure>
+                <img src="assets/images/12-thumb-3.jpg" alt="Floresta densa com raios de sol passando pelas árvores">
+                <figcaption>Floresta & Sol</figcaption>
+            </figure>
+        </a>
+    </main>
+
+    <div class="lightbox" id="img1">
+        <a href="#" class="fechar">X</a>
+        <img src="assets/images/12-full-1.jpg" alt="Vista de montanhas com um lago azul">
+    </div>
+
+    <div class="lightbox" id="img2">
+        <a href="#" class="fechar">X</a>
+        <img src="assets/images/12-full-2.jpg" alt="Praia tropical com areia branca e coqueiros">
+    </div>
+
+    <div class="lightbox" id="img3">
+        <a href="#" class="fechar">X</a>
+        <img src="assets/images/12-full-3.jpg" alt="Floresta densa com raios de sol passando pelas árvores">
+    </div>
+
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                window.location.hash = '';
+            }
+        });
+    </script>
+</body>
+</html>
