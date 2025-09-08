@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
+.container-faq {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+summary {
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: background-color 1s ease;
+}
+
+details[open] > summary {
+    background-color: #007bff;
+    color: white;
+}
+
+details p {
+    padding: 15px;
+    line-height: 1.6;
+}
