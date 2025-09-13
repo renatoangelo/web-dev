@@ -42,7 +42,7 @@ O projeto segue uma estrutura de organização padronizada para facilitar a nave
 
 Abaixo está a lista completa dos exercícios contidos neste repositório.
 
-Você pode acessar o índice, clicando aqui [Visualizar](./Lista01/index.html)
+Você pode acessar o índice, clicando aqui [Visualizar](./index.html)
 
 | #  | Exercício                 | Tags HTML Principais    | Propriedades CSS Principais | Link                                    |
 |:---|:--------------------------|:------------------------|:----------------------------|:----------------------------------------|
